@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World from aws!')
+  res.send('Hello World from aws & remove port and altime project live using nginx!')
 })
 
 app.listen(port, () => {
